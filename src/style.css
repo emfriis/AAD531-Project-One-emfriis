@@ -1,0 +1,55 @@
+html {
+    background: url(images/waves4.png); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+    height: 100%;
+}
+
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+.header-links a {
+    float: left;
+    color: rgb(50, 80, 110);
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    font-family: "Lucida Console";
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header-links a:hover {
+    background-color: rgb(240, 240, 240, 0.4);
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.logo-img {
+    width: 20vw;
+    height: 10vw;
+}
+
+.logo-text {
+    font-size: 2vw;
+    padding-left: 2vw;
+    font-family: "Lucida Console";
+    color: rgb(50, 80, 110);
+    font-weight: bold;
+}
+
+.header-links {
+    float: right;
+    border-radius: 4px;
+}
+
+.footer {
+    
+}
